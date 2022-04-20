@@ -1,0 +1,25 @@
+.partner-card{
+    max-height: 147px;
+}
+.card-text{
+    z-index: 1000;
+    margin-bottom: 4px;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  
+}
+.partner-name{
+    font-size: 34px;
+    font-weight: 300;
+}
+.partner-icon{
+    font-size: 80px;
+    color: #74747418;
+    z-index: 200;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%)
+}
