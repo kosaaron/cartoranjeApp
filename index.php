@@ -172,13 +172,13 @@ if (isset($_SESSION['LoggedIn'])) {
                     </div>
             </div>
             
-                <a type="button" id="add_new_project" class="btn btn-light cc-button"><i class="fas fa-plus"></i></a>
+                <a type="button" id="add_new" class="btn btn-light cc-button"><i class="fas fa-plus"></i></a>
                 <a type="button" id="open_filter" class="btn btn-light cc-button cc-button-2"><i class="fas fa-filter"></i></a>
         </div>
     
 
 <!-- Modal -->
-<div class="modal add_new_modal" id="add_new_project_popup">
+<div class="modal add_new_modal" id="add_new_popup">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
